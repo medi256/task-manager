@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:2003/api/task";
+const API_URL = "https://task-manager-9zow2tk5p-salim-288ec22d.vercel.app0";
 
 document.addEventListener("DOMContentLoaded", fetchDataToTheServer);
 
@@ -65,3 +65,19 @@ async function deleteTask(id) {
     console.log(error);
   }
 }
+
+// {
+//   "version": 2,
+//   "builds": [
+//     {
+//       "src": "server.js",
+//       "use": "@vercel/node"
+//     }
+//   ],
+//   "routes": [
+//     {
+//       "src": "/(.*)",
+//       "dest": "server.js"
+//     }
+//   ]
+// }
