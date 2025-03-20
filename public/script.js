@@ -1,5 +1,5 @@
 // const API_URL = "http://localhost:5000/api/task";
-const API_URL = "task-manager-git-main-salim-288ec22d.vercel.app/api/task";
+const API_URL = "task-manager-j01f3gg26-salim-288ec22d.vercel.app/api/task";
 
 document.addEventListener("DOMContentLoaded", fetchDataToTheServer);
 
