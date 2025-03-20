@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-9zow2tk5p-salim-288ec22d.vercel.app0";
+const API_URL = "http://localhost:5000/api/task";
 
 document.addEventListener("DOMContentLoaded", fetchDataToTheServer);
 
